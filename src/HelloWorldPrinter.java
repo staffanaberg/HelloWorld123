@@ -6,11 +6,11 @@ public class HelloWorldPrinter {
 
     }
 
-    public void printManyTimes(int times) {
-        int counter = 1;
-        while(counter<=times) {
+    public void printManyTimes(int n) {
+        int counter = 0;
+        while(counter<n) {
             System.out.println("Hello World!");
-            counter = counter + 1;
+            counter++;
         }
 
     }
