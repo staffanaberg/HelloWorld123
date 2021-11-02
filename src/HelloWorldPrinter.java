@@ -1,10 +1,8 @@
 public class HelloWorldPrinter {
 
-    //Konstruktor
+
     public HelloWorldPrinter() {
 
-        System.out.println("Nu är jag i HelloWorldPrinter");
-        System.out.println("Nu skapar jag ett HelloWorldPrinter-objekt");
 
     }
 
@@ -16,4 +14,9 @@ public class HelloWorldPrinter {
         }
 
     }
+
+    public void printOnce() {
+        System.out.println("Hello World!");
+    }
+
 }
